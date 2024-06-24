@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class BookService {
     private final LibraryClient bookClient;
     private final String host = "book-finder1.p.rapidapi.com";
-    private final String key = "674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91";
+    private final String key = "YOUR_API_KEY";
     private final Random random = new Random();
 
     public BookResponse getBookData() {
